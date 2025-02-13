@@ -1,4 +1,4 @@
-package org.example.models;
+package org.example.ecology.models;
 
 public class Person {
     private final int id;

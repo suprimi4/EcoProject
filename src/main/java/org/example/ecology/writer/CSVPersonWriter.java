@@ -1,6 +1,6 @@
-package org.example.writer;
+package org.example.ecology.writer;
 
-import org.example.models.Person;
+import org.example.ecology.models.Person;
 
 import java.io.BufferedWriter;
 import java.io.File;

@@ -1,6 +1,6 @@
-package org.example.filter;
+package org.example.ecology.filter;
 
-import org.example.models.Person;
+import org.example.ecology.models.Person;
 
 import java.util.ArrayList;
 import java.util.List;

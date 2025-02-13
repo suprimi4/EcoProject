@@ -1,12 +1,11 @@
-package org.example.reader;
+package org.example.ecology.reader;
 
-import org.example.models.Person;
+import org.example.ecology.models.Person;
 
 import java.io.*;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Function;
 
 public class CSVPersonReader implements PersonReader {
     private final Path path;
