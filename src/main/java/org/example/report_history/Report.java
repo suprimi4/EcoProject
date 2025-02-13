@@ -62,7 +62,7 @@ public class Report {
                 .filter(report -> report.getStudentUserName().equals(studentUserName))
                 .sorted(Comparator.comparing(Report::getDate))
                 .limit(count)
-                .map(report -> report.toString() + "\n---------------") //
+                .map(report -> report.toString() + "\n---------------\n")
                 .collect(Collectors.joining("\n"));
     }
 }
